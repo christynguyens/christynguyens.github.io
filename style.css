@@ -2,10 +2,36 @@ body {
     /* background-color: red; */
 }
 
-.carousel-item img {
-    max-height: 50vh;
+
+
+.card-img-top {
+    max-height: 30vh;
 }
 
 .row {
     margin: 35px 0px;
 }
+
+.hi {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 100px;
+    margin-left: 200px;
+   }
+   
+   img {
+     max-width: 100%;
+     max-height:100%;
+   }
+   
+   .text {
+     font-size: 70px;
+   }
+
+   /* .center {
+    display: block;
+    margin-left: 200px;
+    margin-right: auto;
+    width: 80%;
+  } */
